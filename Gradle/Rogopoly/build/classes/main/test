@@ -1,3 +1,0 @@
-#!/bin/bash
-chmod +x  Main.class
-java Main
