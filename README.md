@@ -3,13 +3,13 @@
    Projet crée par SARRAZIN Alexandre, SOUSSAN Jimmy, TAÏLY Pierrick.
 
    Nous avons rempli toutes les conditions demandées dans le projet.
-   Ce que nous avons fait en plus :
+   Ce que nous avons fait en plus :  
     - Nous avons crées différentes classes de personnage aved différents sorts et différentes
-    caractèristiques.
-    - Nous avons mis en place un inventaire pour stocker de l'équipement.
+    caractèristiques.  
+    - Nous avons mis en place un inventaire pour stocker de l'équipement.  
     - Nous avons ajouté un système achat/vente qui est effectué quand nous parlons avec un
-    PNJ. Et par conséquant un système de monnaie.
-    - Nous avons mis en place diffèrents types de cartes (Prison, Chance ...)
+    PNJ. Et par conséquant un système de monnaie.  
+    - Nous avons mis en place diffèrents types de cartes (Prison, Chance ...)  
 
 	Commande windows :
 	gradlew build
@@ -19,12 +19,12 @@
 	Rejoindre le dossier build/classes/main
 	./test pour exécuter
 	
-   Manuel utilisateur :
+   Manuel utilisateur :  
 
    Le but du jeu est de réussir à survivre le plus longtemps possible à travers un nombre
    infini de cartes et des monstres qui deviennent de plus en plus fort. Tout cela est à
-   réaliser avec une seule et unique vie.
-
+   réaliser avec une seule et unique vie.  
+  
    Lors du lancement du jeu, vous aurez la possibilité de choisir entre créer une nouvelle
    partie ou charger une partie sauvegardée (lors du 1er lancement, il n'y aura pas de partie
    sauvegardé... Bonne chance dans votre aventure).
