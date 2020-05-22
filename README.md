@@ -30,15 +30,15 @@
    sauvegardé... Bonne chance dans votre aventure).
 
    Vous devrez créer votre propre personnage. Vous devrez choisir votre pseudonyme et
-   votre classe.
+   votre classe.  
             Par exemple, écrivez dans le terminal Alexandre 3. (Ici 3 correspond à Mage)
    Ensuite, vous accédere+z à un univers infini de cartes et de créatures dangereuses( cela
-   dépendra de votre niveau... ).
+   dépendra de votre niveau... ).  
    Pour voyager dans cet univers, vous aurez besoin d'utiliser des touches directionnelles :
    Z(en haut), Q(a gauche), S(en bas), D(a droite). Et de rentrer le nombre de pas que vous
-   voulez faire. Il faut faire attention à ses points de mouvements.
+   voulez faire. Il faut faire attention à ses points de mouvements.  
             Par exemple, écrivez dans le terminal Z 4 (qui signifie se déplacer vers le haut
-            de 4 cases).
+            de 4 cases).  
 
    Lors de votre déplacement sur la carte, vous pourrez faire des rencontres innatendues( les
    monstres peuvent vous attaquer si vous passez près d'eux), mais vous pourrez aussi commu-
@@ -49,7 +49,7 @@
    tence. Les combats se déroulent jusqu'à la mort d'un des deux participants ou la fuite de
    l'un d'entre d'eux. Par ailleurs, certaines de vos compétences ont des temps de récupéra-
    tions. Les temps de récupérations sont réduits lorsque le joueur passe un tour en combat
-   ou en se déplacant sur la map(utilisation de tous les points de déplacements).
+   ou en se déplacant sur la map(utilisation de tous les points de déplacements).  
     Lors d'une victoire, votre personnage obtiendra de l'expérience et de l'argent. Mais il
    pourra aussi récuperer un coffre dans lequel il y aura diffèrents objets(Prenez soin de
    tout prendre, vous pourrez devenir RICHE...). Mais parmi ses objets, il y aura des
@@ -62,7 +62,7 @@
    Il n'y a pas que les combats, vous pouvez aussi parler à des marchands qui vous propose-
    rons d'acheter des objets mais aussi de revendre les objets que vous avez obtenu. Pour
    parler à un PNJ, mettez-vous à coté de lui et écrivez la commande /parler. Mais on vous
-   proposera aussi de l'agresser(CELA EST A VOTRE RISQUE ET PERIL...).
+   proposera aussi de l'agresser(CELA EST A VOTRE RISQUE ET PERIL...).  
    Les intendants vous vendront des cartes pour pouvoir vous téléporter vers la carte de votre
    choix.
 
@@ -87,10 +87,10 @@
    Premièrement, nous avons ciblé les principaux éléments du jeu qui sont la carte, le joueur en
    lui-même et le déplacement qui sont pour nous très importants pour la conception.
    Pour la carte, nous avons une classe mère qui est la classe map. Cette classe va permettre de
-   créer des sous-classes de différents types de map (ex : prison, chance, ect).
+   créer des sous-classes de différents types de map (ex : prison, chance, ect).  
     Pour le joueur, nous avons une classe entity qui va contenir des caractèristiques du joueur ou
    de monstre et de PNJ. De cette classe, nous pouvons créer notre classe joueur qui va contenir
-   les différentes attaques du joueur et toutes ses caractéristiques.
+   les différentes attaques du joueur et toutes ses caractéristiques.  
     Pour le déplacement, nous avons fait une classe move qui va nous servir à déplacer le joueur et
    tout les autres PNJ. On va regarder qui fait appel à la fonction, si les PNJ font appel à la
    fonction, elle va s'éxécuter normalement. Mais si c'est le joueur qui a besoin de se déplacer,
@@ -102,11 +102,11 @@
    le combat nous avions besoin de créer des compétences pour le joueur mais aussi pour les PNJ.
    Puis nous devions mettre en place des stratégies de jeu pour tout les PNJ. Le combat se déroule
    en tour par tour, et le joueur devra écrire ce qu'il veut faire donc nous refaisons appel à notre
-   Keyboard pour collecter ses informations.
+   Keyboard pour collecter ses informations.  
    En parallèle de cela, nous avons créer la classe item et ses sous-classes(potion, clé), et aussi
    la classe equipement avec toutes sous-classes. Le package inventaire va contenir les classes
    armorstorage qui va nous permettre d'équiper ou de retirer notre équipement et la classe stock qui
-   va contenir les clés et les potions mais aussi les équipements non portés.
+   va contenir les clés et les potions mais aussi les équipements non portés.  
    La classe coffre va permettre de d'initialiser chacun des coffres sur la map et de les remplir
    aléatoirement mais aussi de vérifier si le joueur a bien la clé pour ouvrir le coffre.
 
